@@ -20,7 +20,10 @@ class ButtonWow extends StatelessWidget {
       this.textStyle = const TextStyle(fontSize: 16.0, color: Colors.white),
       this.elevation = 2.0,
       this.gradient = const LinearGradient(
-        colors: [Colors.blue, Colors.blueAccent],
+        colors: [
+          Color.fromARGB(255, 69, 168, 46),
+          Color.fromARGB(255, 238, 246, 90)
+        ],
       )});
 
   @override
