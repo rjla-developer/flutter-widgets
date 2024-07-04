@@ -13,7 +13,7 @@ class ButtonWow extends StatelessWidget {
   const ButtonWow(
       {required this.text,
       required this.onPressed,
-      this.color = Colors.blue,
+      this.color = Colors.green,
       this.borderRadius = 8.0,
       this.padding =
           const EdgeInsets.symmetric(horizontal: 24.0, vertical: 12.0),
